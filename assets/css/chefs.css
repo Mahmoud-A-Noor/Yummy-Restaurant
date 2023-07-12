@@ -1,0 +1,103 @@
+#chefs{
+    padding-block: 4.5em;
+}
+
+
+.chef-member{
+    border-radius: 7px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.chef-member:hover{
+    transform: scale(1.075);
+}
+
+
+.chef-image{
+    position: relative;
+}
+
+
+.chef-image::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/team-shape.svg) no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+.chef-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0.6em 0.8em;
+
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+
+.chef-member:hover .chef-social{
+    right: 2%;
+    opacity: 1;
+}
+
+.chef-social a{
+    transition: color 0.3s;
+    color: rgba(55, 55, 63, 0.4);
+    margin-bottom: 0.7em;
+}
+
+.chef-social a:nth-child(4){
+    margin-bottom: 0em;
+}
+
+.chef-social a:hover{
+    color: rgba(55, 55, 63, 0.9);
+}
+
+.chef-social a i{
+    font-size: 1.1rem;
+}
+
+.chef-info{
+    background-color: white;
+    text-align: center;
+    padding-inline: 1.35em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.chef-info h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: var(--color-secondary);
+}
+
+.chef-info small{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.4);
+}
+
+.chef-info p{
+    font-style: italic;
+    font-size: 0.9rem;
+    padding-top: 1em;
+    line-height: 26px;
+    color: rgba(33, 37, 41, 0.7);
+}

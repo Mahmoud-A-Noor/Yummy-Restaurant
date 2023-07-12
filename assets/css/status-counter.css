@@ -1,0 +1,33 @@
+
+
+#status-counter{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stats-bg.jpg) center center;
+    background-size: cover;
+    padding: 5em 0;
+}
+
+@media only screen and (min-width: 1365px) {
+    #stats-counter {
+        background-attachment: fixed;
+    }
+}
+
+
+.status-counter-item{
+    padding: 3em;
+    text-align: center;
+}
+
+.status-counter-item span{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.status-counter-item p{
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0;
+}

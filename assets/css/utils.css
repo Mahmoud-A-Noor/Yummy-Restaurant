@@ -1,0 +1,144 @@
+:root {
+    --color-default: #21252A;
+    --color-primary: #ce1212;
+    --color-secondary: #37373f;
+}
+
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-primary: "Amatic SC", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 234, 234);
+    font-family: var(--font-default)
+}
+
+
+h1, h2, h3, h4, h5, h6, ul{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-secondary);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+.font-default{
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-primary{
+    font-family: "Amatic SC", sans-serif;
+}
+
+.font-secondary{
+    font-family: "Inter", sans-serif;
+}
+
+
+.color-default {
+    color: #212529;
+}
+
+.color-primary{
+    color: #ce1212;
+}
+
+.color-secondary{
+    color: #37373f;
+}
+
+
+.bg-color-default {
+    background-color: #212529;
+}
+
+.bg-color-primary{
+    background-color: #ce1212;
+}
+
+.bg-color-secondary{
+    background-color: #37373f;
+}
+
+.header-section{
+    text-align: center;
+}
+
+.header-section > p, .header-section > h2{
+    text-transform: uppercase;
+}
+
+.header-section p{
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #7f7f90;
+    margin-bottom: 0.7em;
+}
+
+.header-section h2{
+    font-size: 3rem;
+    font-family: var(--font-primary);
+    margin-bottom: 1em;
+}
+
+.header-section > h2 > span{
+    font-size: 3.1rem;
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+}
+
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+#back-to-top {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 44px;
+    height: 44px;
+    opacity: 0;
+    z-index: 99999999;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    transition: all 0.4s;
+}
+
+#back-to-top i {
+    color: white;
+}
+
+#back-to-top:hover {
+    background-color: #ec2727;
+}

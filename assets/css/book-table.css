@@ -1,0 +1,32 @@
+#book-table{
+    padding-block: 4.5em;
+}
+
+#book-table .container{
+    background-color: whitesmoke;
+}
+
+.my-form-control{
+    padding: 12px 15px;
+    font-size: 0.9rem;
+    width: 100%;
+    border: 1px solid #dee2e6;
+    margin-bottom: 1.7em;
+}
+
+.my-form-control:focus{
+    outline: none;
+    border: 1px solid var(--color-primary);
+}
+
+#book-table a{
+    background-color: var(--color-primary);
+    padding: 14px 60px;
+    color: white;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+#book-table a:hover{
+    background-color: #ec2727;
+}

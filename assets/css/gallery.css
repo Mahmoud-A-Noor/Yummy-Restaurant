@@ -1,0 +1,14 @@
+#gallery{
+    padding-block: 4.5em;
+}
+
+#gallery .swiper-wrapper{
+    padding-top: 1.5em;
+}
+
+#gallery .swiper-slide-active{
+    padding: 4px;
+    border: 6px solid var(--color-primary);
+    scale: 1.2;
+    z-index: 2;
+}

@@ -1,0 +1,55 @@
+#hero{
+    padding-top: 10em;
+    padding-bottom: 4.5em;
+}
+
+#hero-content h2{
+    margin-bottom: 0.3em;
+    font-family: var(--font-primary);
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+#hero-content p{
+    color: #4f4f5a;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+#hero-content div a:nth-child(1){
+    margin-right: 1.5em;
+
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 36px;
+    border-radius: 30px;
+    transition: 0.5s;
+    color: #fff;
+    background: var(--color-primary);
+    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+}
+
+#hero-content div a:nth-child(1):hover{
+    opacity: 0.8;
+    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
+}
+
+#hero-content div a:nth-child(2):hover span, #hero-content div a:nth-child(2):hover i{
+    color: #e40000;
+}
+
+#hero-content div a:nth-child(2) i{
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-right: 0.3em;
+    transition: 0.5s;
+}
+
+#hero-content div a:nth-child(2) span{
+    color: black;
+    transition: 0.5s;
+    font-weight: 500;
+}
